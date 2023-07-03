@@ -43,7 +43,7 @@ console.log(aray);
 
 let data=aray.map((a,b,c)=>{
   return (
-      <div style={{marginTop:"2px",backgroundColor:"white",width:"100%"}}>
+      <div style={{marginTop:"15px",backgroundColor:"white",width:"100%",height:"auto"}}>
           <h1 style={{color:"black",width:"100%",margin:"none"}}>{a}</h1>
           <button onClick={(e)=>{
               e.preventDefault();
